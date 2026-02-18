@@ -1,10 +1,8 @@
-package dev.tavin.security.Controller;
+package dev.tavin.security.controller;
 
-import dev.tavin.security.Service.UserService;
-import dev.tavin.security.infra.DTO.UserDto.UserResponseDto;
-import dev.tavin.security.infra.entity.UserModel;
+import dev.tavin.security.service.UserService;
+import dev.tavin.security.infra.dto.UserDto.UserResponseDto;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

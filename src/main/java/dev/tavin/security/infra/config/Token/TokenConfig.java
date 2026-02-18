@@ -1,11 +1,10 @@
-package dev.tavin.security.infra.Config.Token;
+package dev.tavin.security.infra.config.Token;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import dev.tavin.security.infra.DTO.AuthDto.JWTUserData;
+import dev.tavin.security.infra.dto.AuthDto.JWTUserData;
 import dev.tavin.security.infra.entity.UserModel;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package dev.tavin.security.infra.DTO.UserDto;
+package dev.tavin.security.infra.dto.UserDto;
 
 import java.util.UUID;
 

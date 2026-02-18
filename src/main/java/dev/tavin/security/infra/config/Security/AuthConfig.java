@@ -1,8 +1,6 @@
-package dev.tavin.security.infra.Config.Security;
+package dev.tavin.security.infra.config.Security;
 
-import dev.tavin.security.infra.Repository.UserRepository;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.AuthenticationManager;
+import dev.tavin.security.infra.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

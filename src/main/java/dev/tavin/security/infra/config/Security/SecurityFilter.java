@@ -1,8 +1,7 @@
-package dev.tavin.security.infra.Config.Security;
+package dev.tavin.security.infra.config.Security;
 
-import dev.tavin.security.infra.Config.Token.TokenConfig;
-import dev.tavin.security.infra.DTO.AuthDto.JWTUserData;
-import dev.tavin.security.infra.Repository.UserRepository;
+import dev.tavin.security.infra.config.Token.TokenConfig;
+import dev.tavin.security.infra.repository.UserRepository;
 import dev.tavin.security.infra.entity.UserModel;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -29,8 +28,6 @@ public class SecurityFilter extends OncePerRequestFilter {
         this.userRepository = userRepository;
     }
 
-
-    //Toda requisição cai aqui primeiro!
     @Override
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response,
