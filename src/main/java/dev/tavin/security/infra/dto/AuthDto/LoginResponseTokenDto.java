@@ -1,4 +1,4 @@
-package dev.tavin.security.infra.DTO.AuthDto;
+package dev.tavin.security.infra.dto.AuthDto;
 
 public record LoginResponseTokenDto (String token) {
 }

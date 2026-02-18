@@ -1,4 +1,4 @@
-package dev.tavin.security.infra.Repository;
+package dev.tavin.security.infra.repository;
 
 import dev.tavin.security.infra.entity.UserModel;
 import org.springframework.data.jpa.repository.JpaRepository;

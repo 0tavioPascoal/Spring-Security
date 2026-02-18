@@ -1,8 +1,8 @@
-package dev.tavin.security.Service;
+package dev.tavin.security.service;
 
-import dev.tavin.security.infra.DTO.UserDto.RegisterUserRequestDto;
-import dev.tavin.security.infra.DTO.UserDto.UserResponseDto;
-import dev.tavin.security.infra.Repository.UserRepository;
+import dev.tavin.security.infra.dto.UserDto.RegisterUserRequestDto;
+import dev.tavin.security.infra.dto.UserDto.UserResponseDto;
+import dev.tavin.security.infra.repository.UserRepository;
 import dev.tavin.security.infra.entity.UserModel;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
